@@ -1,0 +1,199 @@
+@font-face {
+	font-family: 'Waltograph UI';
+	src: url('WaltographUI-Bold.woff2') format('woff2'),
+		 url('WaltographUI-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel.woff2') format('woff2'),
+		 url('Corbel.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel-Italic.woff2') format('woff2'),
+		 url('Corbel-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel-BoldItalic.woff2') format('woff2'),
+		 url('Corbel-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel-Bold.woff2') format('woff2'),
+		 url('Corbel-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Corbel';
+	src: url('Corbel-Italic.woff2') format('woff2'),
+		 url('Corbel-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+body{
+	font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+h1{
+	font-size: 35px;
+	font-weight: 700;
+	color: #363f5a;
+	margin: 20px 0;
+}
+ul{
+	margin: 20px;
+	color: blue;
+	font-weight: 700;
+}
+h2{
+	color: blueviolet;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.chapterone span{
+	font-weight: 900;
+	}
+
+.chapterone li{
+	margin-left: 20px;
+	line-height: 1;
+}
+
+#maintype{
+	font-family: 'Corbel';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 48px;
+}
+#normaltype{
+	font-family: 'Corbel';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+}
+#boldtype{
+	font-family: 'Corbel';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 30px;
+}
+#italictype{
+	font-family: 'Corbel';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 30px;
+}
+#bolditalic{
+	font-family: 'Corbel';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+}
+.usual,.thin{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: blue;
+	margin-left: 20px;
+	font-weight: 600;
+}
+.thin{
+	font-weight: 100;
+}
+.cheptertwo p{
+	word-spacing: 40px;
+}
+.cheptertwo .times{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: blue;
+	text-align: center;
+	font-weight: 600;
+}
+.chapterthree .arial{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+	letter-spacing: 20px;
+}
+.chapterthree> p{
+	color:red
+}
+.chapterfore> div{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: black;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: 900;
+	text-align: center;
+	text-shadow: 40px 40px 2px rgb(242, 246, 12),-40px -40px 2px rgb(15, 139, 240);
+	margin: 40px;
+}
+.chapterfive span{
+	font-family: 'Waltograph UI';
+	font-size: 50px;
+	color: red;
+	text-decoration: underline;
+}
+.chaptersix p{
+	text-decoration: underline;
+}
+.chaptersix h2{
+	text-decoration:line-through
+}
+.example{
+	text-align: center;
+}
+.example .left{
+	text-align: left;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.example .right{
+	text-align: right;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.example .center{
+	text-align: center;
+	font-weight: 900;
+	text-transform: lowercase;
+}
+.example .widthtext{
+	text-align: justify;
+	font-weight: 900;
+	text-decoration: overline;
+	width: 900px;
+	
+}
+footer, header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding: 50px;
+}
