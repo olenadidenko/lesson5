@@ -1,7 +1,6 @@
 @font-face {
 	font-family: 'Waltograph UI';
-	src: url('WaltographUI-Bold.woff2') format('woff2'),
-		 url('WaltographUI-Bold.woff') format('woff');
+	src: url('../fonts/WaltographUI-Bold.woff2') format('woff2'), url('../fonts/WaltographUI-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -9,8 +8,8 @@
 
 @font-face {
 	font-family: 'Corbel';
-	src: url('Corbel.woff2') format('woff2'),
-		 url('Corbel.woff') format('woff');
+	src: url('../fonts/Corbel.woff2') format('woff2'),
+		 url('../fonts/Corbel.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -18,8 +17,8 @@
 
 @font-face {
 	font-family: 'Corbel';
-	src: url('Corbel-Italic.woff2') format('woff2'),
-		 url('Corbel-Italic.woff') format('woff');
+	src: url('../fonts/Corbel-Italic.woff2') format('woff2'),
+		 url('../fonts/Corbel-Italic.woff') format('woff');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -27,8 +26,8 @@
 
 @font-face {
 	font-family: 'Corbel';
-	src: url('Corbel-BoldItalic.woff2') format('woff2'),
-		 url('Corbel-BoldItalic.woff') format('woff');
+	src: url('../fonts/Corbel-BoldItalic.woff2') format('woff2'),
+		 url('../fonts/Corbel-BoldItalic.woff') format('woff');
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
@@ -36,8 +35,8 @@
 
 @font-face {
 	font-family: 'Corbel';
-	src: url('Corbel-Bold.woff2') format('woff2'),
-		 url('Corbel-Bold.woff') format('woff');
+	src: url('../fonts/Corbel-Bold.woff2') format('woff2'),
+		 url('../fonts/Corbel-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -45,8 +44,8 @@
 
 @font-face {
 	font-family: 'Corbel';
-	src: url('Corbel-Italic.woff2') format('woff2'),
-		 url('Corbel-Italic.woff') format('woff');
+	src: url('../fonts/Corbel-Italic.woff2') format('woff2'),
+		 url('../fonts/Corbel-Italic.woff') format('woff');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -153,7 +152,7 @@ h2{
 	text-shadow: 40px 40px 2px rgb(242, 246, 12),-40px -40px 2px rgb(15, 139, 240);
 	margin: 40px;
 }
-.chapterfive span{
+.chapterfive div{
 	font-family: 'Waltograph UI';
 	font-size: 50px;
 	color: red;
